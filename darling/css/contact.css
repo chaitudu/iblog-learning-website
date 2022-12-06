@@ -1,0 +1,20 @@
+.contact-content{
+    height: 900px;
+    /*background-color: wheat;*/
+    margin: 12px;
+    margin-top: 32px;
+    padding: 9px;
+    background-image: url();
+    overflow: hidden;
+}
+.contact-content::after{
+    content: "";
+    background-image: url('../img/lava4.png');
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.30;
+    border-radius: 12px;
+    z-index: -1;
+}

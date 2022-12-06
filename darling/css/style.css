@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    margin-bottom: 25px;
+    font-family: var(--font1);
+    /*height: 74px;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    font-size: 30px;
+    display: flex
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 18px;
+}
+
+.nav-left span {
+    font-size: 35px;
+    padding-top: 10px;
+    height: 25px;
+}
+
+.nav-left ul li {
+    font-size: 22px;
+    list-style: none;
+    display: flex;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+}
+
+.nav-left ul li a:hover {
+    color: green;
+    font-weight: bolder;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.content-left {
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 49px;
+    z-index: -1;
+
+}
+
+.content {
+    height: 100%;
+    /*background-color: wheat;*/
+    margin: 12px;
+    margin-top: 32px;
+    padding: 9px;
+    display: flex;
+    position: relative;
+    /*background-image: url(../img/lava11.jpg);
+    opacity: 0.30;*/
+}
+
+.content::after {
+    content: '';
+    background-image: url('../img/lava3.avif');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.50;
+    border-radius: 40px;
+
+
+}
+
+.footer {
+    /*height: 50px;*/
+    background-color: rgb(2, 1, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    width: 255px;
+}
+
+.footer a {
+    color: white;
+}
+
+.content-right img {
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 400px;
+
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.home-articles {
+    /*height: 700px;*/
+    /*background-color: red;*/
+    padding-top: 12px;
+    margin-top: 23px;
+    position: relative;
+
+}
+
+.home-article img {
+    height: 150px;
+
+
+}
+
+.year-box {
+    position: absolute;
+    /*background-color: red;*/
+    right: 200px;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    font-size: 18px;
+
+}
+
+.year-box div {
+    margin: 12px 0px;
+
+}
+
+.home-article {
+    display: flex;
+    margin-left: 10px;
+    padding: 12px;
+    margin: 10px;
+}
+
+.home-article-content {
+    margin-left: 10px;
+    align-self: center;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: grey;
+}
+
+.nav-left span img {
+    border-radius: 350px;
+}
+
+.box {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    margin-right: 120px;
+    margin-left: 120px;
+    text-align: center;
+
+}
+
+
+.img1 {
+    text-align: center;
+    border-radius: 500px;
+    margin-top: 100px;
+    margin-right: 2px;
+    margin-left: 2px;
+
+}
+
+.box h1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: var(--font1);
+    font-size: 50px;
+
+}
+
+.hack {
+    background-image: url("../img/na2.png");
+    height: inherit;
+
+}
+.chaitu5 img{
+    justify-items: center;
+    height: auto;
+    width: auto;
+    margin-right: 70px;
+
+}
+.container {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas: 'navbar navbar navbar navbar'
+        'section section aside aside'
+        'footer footer footer footer';
+    background-image: url("../img/nam.jpg");
+    opacity: 0.30;
+}
